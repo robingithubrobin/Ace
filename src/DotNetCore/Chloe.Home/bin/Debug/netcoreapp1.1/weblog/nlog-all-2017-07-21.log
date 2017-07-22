@@ -1,0 +1,923 @@
+2017-07-21 15:03:09.0268|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:03:09.1269|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:03:09.3577|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" started. 
+2017-07-21 15:03:09.3577|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" started. 
+2017-07-21 15:03:09.3857|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:03:09.4947|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:03:09.4947|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:03:09.6948|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:03:09.6968|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" completed keep alive response. 
+2017-07-21 15:03:09.6968|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 254.4036ms 200  
+2017-07-21 15:03:09.7398|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:03:09.7478|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:03:09.7648|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:03:09.7768|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:03:09.7908|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:03:09.7908|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:03:09.8158|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:03:09.8238|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:03:09.8598|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:03:09.9614|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:03:10.0556|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:03:10.1116|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:03:10.1206|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:03:10.2472|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:03:10.2662|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:03:10.6264|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 353.7457ms. 
+2017-07-21 15:03:10.6421|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:03:11.8180|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1172.699ms. 
+2017-07-21 15:03:11.8340|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:03:11.8375|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:03:12.0601|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:03:12.0741|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 9.8346ms. 
+2017-07-21 15:03:12.0741|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:03:12.1618|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 82.0957ms. 
+2017-07-21 15:03:12.3394|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2280.5886ms 
+2017-07-21 15:03:12.3684|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:03:12.4334|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/bootstrap/bootstrap.min.css   
+2017-07-21 15:03:12.4554|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" started. 
+2017-07-21 15:03:12.4784|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" started. 
+2017-07-21 15:03:12.5034|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" started. 
+2017-07-21 15:03:12.5264|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/font-awesome.min.css   
+2017-07-21 15:03:12.5264|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/layout-page.css   
+2017-07-21 15:03:12.5584|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/jquery/jquery-1.11.1.min.js   
+2017-07-21 15:03:12.5584|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" started. 
+2017-07-21 15:03:12.5584|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/bootstrap/bootstrap.min.js   
+2017-07-21 15:03:12.5994|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/bootstrap/bootstrap.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\bootstrap\bootstrap.min.js' 
+2017-07-21 15:03:12.6229|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/font-awesome.min.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\font-awesome.min.css' 
+2017-07-21 15:03:12.6904|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" completed keep alive response. 
+2017-07-21 15:03:12.7124|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/layout-page.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\layout-page.css' 
+2017-07-21 15:03:12.6444|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/bootstrap/bootstrap.min.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\bootstrap\bootstrap.min.css' 
+2017-07-21 15:03:12.6674|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/jquery/jquery-1.11.1.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\jquery\jquery-1.11.1.min.js' 
+2017-07-21 15:03:12.7574|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3289.9695ms 200 text/html; charset=utf-8 
+2017-07-21 15:03:12.8134|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/animate.min.css   
+2017-07-21 15:03:12.8134|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/animate.min.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\animate.min.css' 
+2017-07-21 15:03:12.8774|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" completed keep alive response. 
+2017-07-21 15:03:12.8774|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" completed keep alive response. 
+2017-07-21 15:03:12.8844|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 376.8416ms 200 text/css 
+2017-07-21 15:03:12.9085|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 401.365ms 200 text/css 
+2017-07-21 15:03:12.9345|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" completed keep alive response. 
+2017-07-21 15:03:12.9835|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/index.css   
+2017-07-21 15:03:12.9835|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 150.4697ms 200 text/css 
+2017-07-21 15:03:13.0380|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" completed keep alive response. 
+2017-07-21 15:03:13.0635|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 610.6086ms 200 text/css 
+2017-07-21 15:03:13.1025|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/back-top.js   
+2017-07-21 15:03:13.1055|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/jquery.backstretch.min.js   
+2017-07-21 15:03:13.1295|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" completed keep alive response. 
+2017-07-21 15:03:13.1725|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/back-top.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\back-top.js' 
+2017-07-21 15:03:13.1955|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" completed keep alive response. 
+2017-07-21 15:03:13.1975|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 586.639ms 200 application/javascript 
+2017-07-21 15:03:13.2425|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/vegas.min.css   
+2017-07-21 15:03:13.2655|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/index.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\index.css' 
+2017-07-21 15:03:13.2895|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/jquery.backstretch.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\jquery.backstretch.min.js' 
+2017-07-21 15:03:13.3165|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/vegas.min.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\vegas.min.css' 
+2017-07-21 15:03:13.3405|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" completed keep alive response. 
+2017-07-21 15:03:13.3665|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/header.js   
+2017-07-21 15:03:13.3915|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 669.906ms 200 application/javascript 
+2017-07-21 15:03:13.3915|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" completed keep alive response. 
+2017-07-21 15:03:13.4396|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 460.3823ms 200 text/css 
+2017-07-21 15:03:13.4656|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" completed keep alive response. 
+2017-07-21 15:03:13.5117|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 427.3156ms 200 text/css 
+2017-07-21 15:03:13.5117|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 253.3636ms 200 application/javascript 
+2017-07-21 15:03:13.5587|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/header.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\header.js' 
+2017-07-21 15:03:13.5587|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" completed keep alive response. 
+2017-07-21 15:03:13.5827|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/vegas.min.js   
+2017-07-21 15:03:13.6077|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 517.6265ms 200 application/javascript 
+2017-07-21 15:03:13.6312|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" completed keep alive response. 
+2017-07-21 15:03:13.7213|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 312.1733ms 200 application/javascript 
+2017-07-21 15:03:13.7213|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/ORMicon(200x200).png   
+2017-07-21 15:03:13.7343|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/ORMicon(200x200).png'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\ORMicon(200x200).png' 
+2017-07-21 15:03:13.7343|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/wow.min.js   
+2017-07-21 15:03:13.7343|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/index.js   
+2017-07-21 15:03:13.8158|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" completed keep alive response. 
+2017-07-21 15:03:13.8608|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/index.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\index.js' 
+2017-07-21 15:03:13.8608|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 115.2102ms 200 image/png 
+2017-07-21 15:03:13.8848|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/wow.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\wow.min.js' 
+2017-07-21 15:03:13.9308|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/js/vegas.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\js\vegas.min.js' 
+2017-07-21 15:03:13.9548|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/ORMicon(330x330).png   
+2017-07-21 15:03:13.9998|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" completed keep alive response. 
+2017-07-21 15:03:14.0461|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" completed keep alive response. 
+2017-07-21 15:03:14.0461|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 324.4763ms 200 application/javascript 
+2017-07-21 15:03:14.0711|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 349.7678ms 200 application/javascript 
+2017-07-21 15:03:14.1246|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" completed keep alive response. 
+2017-07-21 15:03:14.1246|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 586.9797ms 200 application/javascript 
+2017-07-21 15:03:14.1381|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/ORMicon(330x330).png'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\ORMicon(330x330).png' 
+2017-07-21 15:03:14.1381|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" completed keep alive response. 
+2017-07-21 15:03:14.1381|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 309.5836ms 200 image/png 
+2017-07-21 15:03:14.2016|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-1.jpg   
+2017-07-21 15:03:14.2016|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-1.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-1.jpg' 
+2017-07-21 15:03:14.2431|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" completed keep alive response. 
+2017-07-21 15:03:14.2471|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 49.9395ms 200 image/jpeg 
+2017-07-21 15:03:19.3837|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-2.jpg   
+2017-07-21 15:03:19.3967|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-2.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-2.jpg' 
+2017-07-21 15:03:19.4437|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" completed keep alive response. 
+2017-07-21 15:03:19.4437|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 65.289ms 200 image/jpeg 
+2017-07-21 15:03:21.7110|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/vegas.min.js.map   
+2017-07-21 15:03:21.7180|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Content/js/vegas.min.js.map does not match an existing file 
+2017-07-21 15:03:21.7180|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:03:21.7180|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:03:21.7365|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Content' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:03:21.7365|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:03:21.7440|3|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-07-21 15:03:21.7440|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-07-21 15:03:21.7440|11|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Response is not cacheable because it does not contain the 'public' cache directive. 
+2017-07-21 15:03:21.7440|27|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response could not be cached for this request. 
+2017-07-21 15:03:21.7620|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" completed keep alive response. 
+2017-07-21 15:03:21.7620|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 53.6653ms 404  
+2017-07-21 15:04:59.3435|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" received FIN. 
+2017-07-21 15:04:59.3435|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" received FIN. 
+2017-07-21 15:04:59.3530|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" received FIN. 
+2017-07-21 15:04:59.3530|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" received FIN. 
+2017-07-21 15:04:59.3782|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" received FIN. 
+2017-07-21 15:04:59.3872|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" disconnecting. 
+2017-07-21 15:04:59.4482|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" received FIN. 
+2017-07-21 15:04:59.4698|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" disconnecting. 
+2017-07-21 15:04:59.4938|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" disconnecting. 
+2017-07-21 15:04:59.5159|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" disconnecting. 
+2017-07-21 15:04:59.5453|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" disconnecting. 
+2017-07-21 15:04:59.5453|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" sending FIN. 
+2017-07-21 15:04:59.5704|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" sending FIN. 
+2017-07-21 15:04:59.5733|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" disconnecting. 
+2017-07-21 15:04:59.5733|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" sending FIN. 
+2017-07-21 15:04:59.5733|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" sending FIN. 
+2017-07-21 15:04:59.6067|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" sent FIN with status "0". 
+2017-07-21 15:04:59.6067|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" sending FIN. 
+2017-07-21 15:04:59.6067|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" sent FIN with status "0". 
+2017-07-21 15:04:59.6337|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" sent FIN with status "0". 
+2017-07-21 15:04:59.6796|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6G" stopped. 
+2017-07-21 15:04:59.6575|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" sending FIN. 
+2017-07-21 15:04:59.7016|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6F" stopped. 
+2017-07-21 15:04:59.7246|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6I" stopped. 
+2017-07-21 15:04:59.7481|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" sent FIN with status "0". 
+2017-07-21 15:04:59.7691|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" sent FIN with status "0". 
+2017-07-21 15:04:59.7942|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6E" stopped. 
+2017-07-21 15:04:59.7942|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6D" stopped. 
+2017-07-21 15:04:59.7942|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" sent FIN with status "0". 
+2017-07-21 15:04:59.7942|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0Q5MFM6H" stopped. 
+2017-07-21 15:08:19.7601|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:08:19.8561|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:08:20.0420|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:08:20.2794|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" started. 
+2017-07-21 15:08:20.2794|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" started. 
+2017-07-21 15:08:20.4054|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:08:20.4054|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:08:20.5834|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:20.5834|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:08:20.5944|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 230.3864ms 200  
+2017-07-21 15:08:20.6235|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:08:20.6235|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:08:20.6485|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:08:20.6615|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:08:20.6775|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:08:20.6865|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:08:20.6990|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:08:20.6990|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:20.7404|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:20.8455|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:20.9413|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:08:20.9954|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:08:20.9954|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:21.1085|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:08:21.1275|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:08:21.5089|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 373.8741ms. 
+2017-07-21 15:08:21.5219|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:08:22.4484|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 923.5602ms. 
+2017-07-21 15:08:22.4484|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:08:22.4664|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:08:22.6344|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:08:22.6504|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 12.1512ms. 
+2017-07-21 15:08:22.6504|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:08:22.7395|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 80.228ms. 
+2017-07-21 15:08:22.8960|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 1950.6614ms 
+2017-07-21 15:08:22.9242|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:22.9892|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:08:22.9892|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2633.4939ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:27.3332|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document   
+2017-07-21 15:08:27.3412|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document does not match a supported file type 
+2017-07-21 15:08:27.3412|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:27.3412|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:27.3602|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:27.3602|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:27.3702|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:27.4497|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments () - ModelState is Valid 
+2017-07-21 15:08:27.7700|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:27.7700|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:27.7760|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:08:27.8140|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' completed in 34.364ms. 
+2017-07-21 15:08:27.8140|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:08:27.9471|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' completed in 127.7449ms. 
+2017-07-21 15:08:27.9471|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:27.9471|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:28.0037|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 630.4135ms 
+2017-07-21 15:08:28.0102|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:28.0102|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:28.0348|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:28.0348|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 704.5591ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:28.0468|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/editormd/css/editormd.min.css   
+2017-07-21 15:08:28.0468|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/css/wx.css   
+2017-07-21 15:08:28.0928|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/css/wx.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\css\wx.css' 
+2017-07-21 15:08:28.0928|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/editormd/css/editormd.min.css'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\editormd\css\editormd.min.css' 
+2017-07-21 15:08:28.1173|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" started. 
+2017-07-21 15:08:28.1453|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/editormd/lib/prettify.min.js   
+2017-07-21 15:08:28.1503|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/editormd/lib/prettify.min.js'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\editormd\lib\prettify.min.js' 
+2017-07-21 15:08:28.1853|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" completed keep alive response. 
+2017-07-21 15:08:28.1853|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:28.2113|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 44.6843ms 200 application/javascript 
+2017-07-21 15:08:28.2133|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 142.5192ms 200 text/css 
+2017-07-21 15:08:28.2603|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:08:28.2603|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 219.1281ms 200 text/css 
+2017-07-21 15:08:31.1452|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/editormd/fonts/fontawesome-webfont.woff2?v=4.3.0   
+2017-07-21 15:08:31.1522|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/editormd/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\editormd\fonts\fontawesome-webfont.woff2' 
+2017-07-21 15:08:31.1522|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:31.1522|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 19.0218ms 200 application/font-woff2 
+2017-07-21 15:08:34.1771|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324793835434803200   
+2017-07-21 15:08:34.1821|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324793835434803200 does not match a supported file type 
+2017-07-21 15:08:34.1821|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:34.1821|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:34.1821|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:34.1821|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:34.1971|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:34.2316|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324793835434803200) - ModelState is Valid 
+2017-07-21 15:08:34.2456|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:34.2456|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:34.2456|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:34.2456|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:34.2806|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 80.9765ms 
+2017-07-21 15:08:34.2806|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:34.2906|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:34.2906|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" completed keep alive response. 
+2017-07-21 15:08:34.2906|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 125.5271ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:35.4722|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324802610879266816   
+2017-07-21 15:08:35.4782|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324802610879266816 does not match a supported file type 
+2017-07-21 15:08:35.4782|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:35.4782|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:35.4782|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:35.4782|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:35.4952|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:35.4952|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324802610879266816) - ModelState is Valid 
+2017-07-21 15:08:35.5107|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:35.5107|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:35.5107|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:35.5107|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:35.5392|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 42.0648ms 
+2017-07-21 15:08:35.5432|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:35.5432|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:35.5432|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:08:35.5562|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 84.0905ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:38.1950|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324756912431431680   
+2017-07-21 15:08:38.2000|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324756912431431680 does not match a supported file type 
+2017-07-21 15:08:38.2000|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:38.2000|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:38.2000|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:38.2155|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:38.2155|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:38.2155|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324756912431431680) - ModelState is Valid 
+2017-07-21 15:08:38.2350|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:38.2350|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:38.2350|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:38.2440|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:38.2640|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 43.3186ms 
+2017-07-21 15:08:38.2640|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:38.2750|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:38.2750|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:38.2920|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 97.6522ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:38.8248|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324760360224817152   
+2017-07-21 15:08:38.8248|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324760360224817152 does not match a supported file type 
+2017-07-21 15:08:38.8248|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:38.8398|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:38.8398|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:38.8398|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:38.8398|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:38.8398|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324760360224817152) - ModelState is Valid 
+2017-07-21 15:08:38.8648|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:38.8648|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:38.8698|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:38.8698|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:38.8908|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 38.18ms 
+2017-07-21 15:08:38.8908|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:38.8908|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:38.9058|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" completed keep alive response. 
+2017-07-21 15:08:38.9058|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 83.9664ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:39.3455|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324761124187930624   
+2017-07-21 15:08:39.3455|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324761124187930624 does not match a supported file type 
+2017-07-21 15:08:39.3555|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:39.3555|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:39.3555|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:39.3555|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:39.3715|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:39.3715|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324761124187930624) - ModelState is Valid 
+2017-07-21 15:08:39.3885|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:39.3885|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:39.3885|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:39.3885|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:39.4215|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 46.5968ms 
+2017-07-21 15:08:39.4215|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:39.4215|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:39.4385|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:08:39.4385|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 96.1898ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:39.9760|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324773693170647040   
+2017-07-21 15:08:39.9810|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324773693170647040 does not match a supported file type 
+2017-07-21 15:08:39.9810|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:39.9810|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:39.9810|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:39.9810|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:39.9960|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:39.9960|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324773693170647040) - ModelState is Valid 
+2017-07-21 15:08:40.0114|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:40.0114|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:40.0114|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:40.0114|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:40.0364|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 37.8384ms 
+2017-07-21 15:08:40.0424|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:40.0424|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:40.0424|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:08:40.0594|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 82.3836ms 200 text/html; charset=utf-8 
+2017-07-21 15:08:40.4807|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3324786622028840960   
+2017-07-21 15:08:40.4807|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3324786622028840960 does not match a supported file type 
+2017-07-21 15:08:40.4807|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:08:40.4947|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:08:40.4947|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:08:40.4947|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:08:40.4947|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:08:40.4947|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3324786622028840960) - ModelState is Valid 
+2017-07-21 15:08:40.5223|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:08:40.5223|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:08:40.5283|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:08:40.5283|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:08:40.5513|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 41.8499ms 
+2017-07-21 15:08:40.5563|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:08:40.5563|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:08:40.5563|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" completed keep alive response. 
+2017-07-21 15:08:40.5563|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 88.5708ms 200 text/html; charset=utf-8 
+2017-07-21 15:09:12.9469|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3325156110087749632   
+2017-07-21 15:09:12.9469|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3325156110087749632 does not match a supported file type 
+2017-07-21 15:09:12.9469|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:09:12.9469|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:09:12.9668|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:09:12.9668|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:09:12.9668|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:09:12.9668|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3325156110087749632) - ModelState is Valid 
+2017-07-21 15:09:12.9878|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:09:12.9878|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:09:12.9878|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:09:12.9958|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:09:13.0248|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 46.9717ms 
+2017-07-21 15:09:13.0298|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:09:13.0298|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:09:13.0423|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:09:13.0423|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 98.998ms 200 text/html; charset=utf-8 
+2017-07-21 15:09:16.7723|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document/3325873886481874944   
+2017-07-21 15:09:16.7783|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document/3325873886481874944 does not match a supported file type 
+2017-07-21 15:09:16.7783|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:09:16.7783|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:09:16.7783|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:09:16.7933|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:09:16.7933|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:09:16.7933|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments (3325873886481874944) - ModelState is Valid 
+2017-07-21 15:09:16.8123|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:09:16.8123|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:09:16.8123|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:09:16.8233|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:09:16.8458|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 46.8777ms 
+2017-07-21 15:09:16.8458|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:09:16.8543|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:09:16.8543|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:09:16.8543|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 94.6334ms 200 text/html; charset=utf-8 
+2017-07-21 15:09:59.8087|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" received FIN. 
+2017-07-21 15:09:59.8087|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:09:59.8283|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" disconnecting. 
+2017-07-21 15:09:59.8283|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:09:59.8283|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" sending FIN. 
+2017-07-21 15:09:59.8413|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:09:59.8413|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:09:59.8533|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:09:59.8773|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:09:59.8773|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" sent FIN with status "0". 
+2017-07-21 15:09:59.8773|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:09:59.9073|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NK" stopped. 
+2017-07-21 15:09:59.9073|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:09:59.9073|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-07-21 15:09:59.9178|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:09:59.9178|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:09:59.9353|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 54.4339ms 
+2017-07-21 15:09:59.9353|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:09:59.9503|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NI" completed keep alive response. 
+2017-07-21 15:09:59.9503|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 138.9109ms 200 text/html; charset=utf-8 
+2017-07-21 15:10:02.2242|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/fonts/fontawesome-webfont.woff2?v=4.4.0   
+2017-07-21 15:10:02.2352|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\fonts\fontawesome-webfont.woff2' 
+2017-07-21 15:10:02.2562|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0T2BL9NJ" completed keep alive response. 
+2017-07-21 15:10:02.2602|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 38.9555ms 200 application/font-woff2 
+2017-07-21 15:11:37.1417|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:11:37.2307|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:11:37.4116|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:11:37.5461|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" started. 
+2017-07-21 15:11:37.5461|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" started. 
+2017-07-21 15:11:37.6731|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:11:37.6731|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:11:37.8441|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:11:37.8441|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" completed keep alive response. 
+2017-07-21 15:11:37.8571|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 224.4693ms 200  
+2017-07-21 15:11:37.8891|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:11:37.8891|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:11:37.9126|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:11:37.9232|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:11:37.9372|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:11:37.9372|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:11:37.9592|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:11:37.9682|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:11:38.0042|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:11:38.1027|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:11:38.1972|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:11:38.2518|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:11:38.2598|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:11:38.3663|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:11:38.3843|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:11:38.7678|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 377.0525ms. 
+2017-07-21 15:11:38.7788|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:11:39.6972|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 915.5581ms. 
+2017-07-21 15:11:39.6972|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:11:39.7142|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:11:39.8913|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:11:39.9038|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 9.9049ms. 
+2017-07-21 15:11:39.9038|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:11:39.9843|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 73.913ms. 
+2017-07-21 15:11:40.1604|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 1959.1478ms 
+2017-07-21 15:11:40.1854|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:11:40.2544|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" completed keep alive response. 
+2017-07-21 15:11:40.2544|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2630.5583ms 200 text/html; charset=utf-8 
+2017-07-21 15:13:27.5339|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" received FIN. 
+2017-07-21 15:13:27.5339|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" received FIN. 
+2017-07-21 15:13:27.5959|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" disconnecting. 
+2017-07-21 15:13:27.5959|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" disconnecting. 
+2017-07-21 15:13:27.6209|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" sending FIN. 
+2017-07-21 15:13:27.6209|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" sending FIN. 
+2017-07-21 15:13:27.6519|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" sent FIN with status "0". 
+2017-07-21 15:13:27.6519|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" sent FIN with status "0". 
+2017-07-21 15:13:27.7019|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU7" stopped. 
+2017-07-21 15:13:27.7019|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU6" stopped. 
+2017-07-21 15:14:18.0997|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" started. 
+2017-07-21 15:14:18.1087|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document   
+2017-07-21 15:14:18.1188|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document does not match a supported file type 
+2017-07-21 15:14:18.1188|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:14:18.1188|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:14:18.1446|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:14:18.1446|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:14:18.1516|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:14:18.2241|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments () - ModelState is Valid 
+2017-07-21 15:14:18.5283|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:14:18.5283|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:14:18.5283|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:14:18.5803|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' completed in 42.075ms. 
+2017-07-21 15:14:18.5803|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:14:18.7328|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' completed in 146.8781ms. 
+2017-07-21 15:14:18.7328|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:14:18.7328|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:14:18.7875|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 633.1111ms 
+2017-07-21 15:14:18.7945|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:14:18.7945|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:14:18.8145|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" completed keep alive response. 
+2017-07-21 15:14:18.8145|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 711.7088ms 200 text/html; charset=utf-8 
+2017-07-21 15:15:27.7200|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" received FIN. 
+2017-07-21 15:15:27.7200|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" started. 
+2017-07-21 15:15:27.7330|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" disconnecting. 
+2017-07-21 15:15:27.7630|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" sending FIN. 
+2017-07-21 15:15:27.7630|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:15:27.7630|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" sent FIN with status "0". 
+2017-07-21 15:15:27.8010|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU8" stopped. 
+2017-07-21 15:15:27.8010|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:15:27.8010|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:15:27.8090|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:15:27.8090|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:15:27.8090|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:15:27.8090|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:15:27.8250|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:15:27.8250|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:15:27.8250|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:15:27.8470|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 13.3303ms. 
+2017-07-21 15:15:27.8470|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:15:27.8983|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 44.7984ms. 
+2017-07-21 15:15:27.9023|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:15:27.9023|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:15:27.9263|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 105.6871ms 
+2017-07-21 15:15:27.9263|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:15:27.9403|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" completed keep alive response. 
+2017-07-21 15:15:27.9403|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 204.9322ms 200 text/html; charset=utf-8 
+2017-07-21 15:17:07.5147|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" received FIN. 
+2017-07-21 15:17:07.5257|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" disconnecting. 
+2017-07-21 15:17:07.5257|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" sending FIN. 
+2017-07-21 15:17:07.5257|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" sent FIN with status "0". 
+2017-07-21 15:17:07.5414|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G0UT4UTU9" stopped. 
+2017-07-21 15:41:11.6716|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:41:11.7596|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:41:11.9398|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:41:12.1230|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" started. 
+2017-07-21 15:41:12.1230|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" started. 
+2017-07-21 15:41:12.2515|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:41:12.2515|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:41:12.4285|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:41:12.4285|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" completed keep alive response. 
+2017-07-21 15:41:12.4400|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 231.5718ms 200  
+2017-07-21 15:41:12.4725|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:41:12.4800|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:41:12.4955|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:41:12.4955|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:41:12.5210|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:41:12.5295|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:41:12.5425|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:41:12.5425|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:41:12.5840|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:41:12.6785|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:41:12.7815|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:41:12.8460|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:41:12.8560|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:41:12.9595|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:41:12.9800|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:41:13.3679|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 382.134ms. 
+2017-07-21 15:41:13.3804|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:41:14.4359|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1051.1248ms. 
+2017-07-21 15:41:14.4499|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:41:14.4499|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:41:14.6599|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:41:14.6739|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 11.0876ms. 
+2017-07-21 15:41:14.6739|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:41:14.7514|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 71.8557ms. 
+2017-07-21 15:41:14.9159|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2130.1642ms 
+2017-07-21 15:41:14.9414|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:41:15.0094|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" completed keep alive response. 
+2017-07-21 15:41:15.0094|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2810.6321ms 200 text/html; charset=utf-8 
+2017-07-21 15:43:02.1072|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" received FIN. 
+2017-07-21 15:43:02.1072|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" received FIN. 
+2017-07-21 15:43:02.1472|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" disconnecting. 
+2017-07-21 15:43:02.1472|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" disconnecting. 
+2017-07-21 15:43:02.1717|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" sending FIN. 
+2017-07-21 15:43:02.1717|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" sending FIN. 
+2017-07-21 15:43:02.2007|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" sent FIN with status "0". 
+2017-07-21 15:43:02.2007|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" sent FIN with status "0". 
+2017-07-21 15:43:02.2298|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21T" stopped. 
+2017-07-21 15:43:02.2298|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1FE0K21U" stopped. 
+2017-07-21 15:48:25.0647|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:48:25.1725|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:48:25.3592|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:48:25.4343|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" started. 
+2017-07-21 15:48:25.4343|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" started. 
+2017-07-21 15:48:25.5558|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:48:25.5588|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:48:25.7383|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" completed keep alive response. 
+2017-07-21 15:48:25.7383|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:48:25.7493|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 234.0732ms 200  
+2017-07-21 15:48:25.7833|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:48:25.7933|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:48:25.8103|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:48:25.8223|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:48:25.8223|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:48:25.8463|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:48:25.8594|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:48:25.8594|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:48:25.9024|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:48:25.9944|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:48:26.0933|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:48:26.1503|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:48:26.1503|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:48:26.2628|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:48:26.2818|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:48:26.7079|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 419.1918ms. 
+2017-07-21 15:48:26.7199|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:48:27.7871|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1064.3263ms. 
+2017-07-21 15:48:27.8021|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:48:27.8071|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:48:27.9913|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:48:28.0053|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 9.8725ms. 
+2017-07-21 15:48:28.0053|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:48:28.0829|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 71.7746ms. 
+2017-07-21 15:48:28.2444|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2146.9238ms 
+2017-07-21 15:48:28.2779|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:48:28.3525|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" completed keep alive response. 
+2017-07-21 15:48:28.3565|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2846.902ms 200 text/html; charset=utf-8 
+2017-07-21 15:48:38.7712|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-3.jpg   
+2017-07-21 15:48:38.7882|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-3.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-3.jpg' 
+2017-07-21 15:48:38.8172|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" completed keep alive response. 
+2017-07-21 15:48:38.8172|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 48.963ms 200 image/jpeg 
+2017-07-21 15:48:43.9430|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-4.jpg   
+2017-07-21 15:48:43.9505|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-4.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-4.jpg' 
+2017-07-21 15:48:43.9660|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" completed keep alive response. 
+2017-07-21 15:48:43.9660|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 27.1573ms 200 image/jpeg 
+2017-07-21 15:50:10.8286|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" received FIN. 
+2017-07-21 15:50:10.8504|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" received FIN. 
+2017-07-21 15:50:10.8744|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" started. 
+2017-07-21 15:50:10.9344|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" disconnecting. 
+2017-07-21 15:50:10.9344|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" disconnecting. 
+2017-07-21 15:50:10.9616|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Wiki/Document   
+2017-07-21 15:50:10.9886|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" sending FIN. 
+2017-07-21 15:50:10.9886|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" sending FIN. 
+2017-07-21 15:50:10.9976|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Wiki/Document does not match a supported file type 
+2017-07-21 15:50:10.9976|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:50:10.9976|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:50:11.0282|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" sent FIN with status "0". 
+2017-07-21 15:50:11.0282|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" sent FIN with status "0". 
+2017-07-21 15:50:11.0592|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007O" stopped. 
+2017-07-21 15:50:11.0592|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007N" stopped. 
+2017-07-21 15:50:11.0592|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Wiki' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 15:50:11.0592|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:50:11.0722|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) 
+2017-07-21 15:50:11.1347|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home) with arguments () - ModelState is Valid 
+2017-07-21 15:50:11.4391|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.WikiController.Document (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:50:11.4391|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Document' in controller 'Wiki'. 
+2017-07-21 15:50:11.4471|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:50:11.4911|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Wiki/Document.cshtml' completed in 40.4486ms. 
+2017-07-21 15:50:11.4911|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' started. 
+2017-07-21 15:50:11.6202|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Wiki/Document.cshtml' completed in 124.1846ms. 
+2017-07-21 15:50:11.6202|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Document' was found. 
+2017-07-21 15:50:11.6202|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Wiki/Document.cshtml. 
+2017-07-21 15:50:11.6747|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.WikiController.Document (Chloe.Home) in 600.4738ms 
+2017-07-21 15:50:11.6747|25|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Vary by rules were updated. Headers: (null), Query keys: ID 
+2017-07-21 15:50:11.6877|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:50:11.7007|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" completed keep alive response. 
+2017-07-21 15:50:11.7007|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 763.3784ms 200 text/html; charset=utf-8 
+2017-07-21 15:50:13.3612|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:50:13.3612|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:50:13.3707|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:50:13.3707|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:50:13.3707|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:50:13.3707|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:50:13.3882|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:50:13.3882|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:50:13.3882|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-07-21 15:50:13.3882|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:50:13.4022|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:50:13.4187|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 31.8107ms 
+2017-07-21 15:50:13.4187|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:50:13.4312|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" completed keep alive response. 
+2017-07-21 15:50:13.4312|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 73.5086ms 200 text/html; charset=utf-8 
+2017-07-21 15:52:05.3964|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" received FIN. 
+2017-07-21 15:52:05.4124|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" disconnecting. 
+2017-07-21 15:52:05.4164|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" sending FIN. 
+2017-07-21 15:52:05.4164|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" sent FIN with status "0". 
+2017-07-21 15:52:05.4164|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1JF5007P" stopped. 
+2017-07-21 15:52:43.0564|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:52:43.1535|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:52:43.3396|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:52:43.4752|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" started. 
+2017-07-21 15:52:43.4781|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" started. 
+2017-07-21 15:52:43.6024|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:52:43.6044|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:52:43.7935|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:52:43.7935|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" completed keep alive response. 
+2017-07-21 15:52:43.7935|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 244.2405ms 200  
+2017-07-21 15:52:43.8351|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:52:43.8431|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:52:43.8591|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:52:43.8712|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:52:43.8871|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:52:43.8871|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:52:43.9082|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:52:43.9172|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:52:43.9522|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:52:44.0586|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:52:44.1556|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:52:44.2181|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:52:44.2181|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:52:44.3397|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:52:44.3597|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:52:44.7250|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 359.2404ms. 
+2017-07-21 15:52:44.7370|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:52:45.8442|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1104.9533ms. 
+2017-07-21 15:52:45.8562|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:52:45.8562|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:52:46.0515|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:52:46.0655|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 10.7357ms. 
+2017-07-21 15:52:46.0655|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:52:46.1526|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 81.2385ms. 
+2017-07-21 15:52:46.3210|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2162.1071ms 
+2017-07-21 15:52:46.3540|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:52:46.4290|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" completed keep alive response. 
+2017-07-21 15:52:46.4330|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2877.0514ms 200 text/html; charset=utf-8 
+2017-07-21 15:54:33.4619|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" received FIN. 
+2017-07-21 15:54:33.4649|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" received FIN. 
+2017-07-21 15:54:33.5264|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" disconnecting. 
+2017-07-21 15:54:33.5264|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" disconnecting. 
+2017-07-21 15:54:33.5539|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" sending FIN. 
+2017-07-21 15:54:33.5539|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" sending FIN. 
+2017-07-21 15:54:33.5850|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" sent FIN with status "0". 
+2017-07-21 15:54:33.5879|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" sent FIN with status "0". 
+2017-07-21 15:54:33.6139|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K7" stopped. 
+2017-07-21 15:54:33.6139|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1LS1S4K8" stopped. 
+2017-07-21 15:55:04.7705|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 15:55:04.8655|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 15:55:05.0296|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 15:55:05.2108|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" started. 
+2017-07-21 15:55:05.2137|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" started. 
+2017-07-21 15:55:05.3407|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 15:55:05.3407|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 15:55:05.5241|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 15:55:05.5261|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:55:05.5261|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 239.2869ms 200  
+2017-07-21 15:55:05.5661|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 15:55:05.5741|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 15:55:05.5896|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 15:55:05.5896|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 15:55:05.6156|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 15:55:05.6246|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 15:55:05.6376|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 15:55:05.6376|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 15:55:05.6811|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 15:55:05.7782|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 15:55:05.8787|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 15:55:05.9342|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 15:55:05.9342|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 15:55:06.0432|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 15:55:06.0642|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:55:06.4620|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 390.9696ms. 
+2017-07-21 15:55:06.4750|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 15:55:07.5800|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1101.5725ms. 
+2017-07-21 15:55:07.5925|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 15:55:07.5925|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 15:55:07.7820|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:55:07.7960|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 10.1324ms. 
+2017-07-21 15:55:07.7960|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 15:55:07.8775|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 74.9893ms. 
+2017-07-21 15:55:08.0421|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2159.8587ms 
+2017-07-21 15:55:08.0711|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 15:55:08.1381|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:55:08.1381|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2850.303ms 200 text/html; charset=utf-8 
+2017-07-21 15:55:28.7373|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-5.jpg   
+2017-07-21 15:55:28.7508|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-5.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-5.jpg' 
+2017-07-21 15:55:28.7968|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:55:28.7968|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 63.0784ms 200 image/jpeg 
+2017-07-21 15:55:33.9246|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-6.jpg   
+2017-07-21 15:55:33.9326|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-6.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-6.jpg' 
+2017-07-21 15:55:33.9516|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:55:33.9516|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 31.1547ms 200 image/jpeg 
+2017-07-21 15:55:39.0749|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-7.jpg   
+2017-07-21 15:55:39.0749|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-7.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-7.jpg' 
+2017-07-21 15:55:39.1029|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:55:39.1069|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 31.3356ms 200 image/jpeg 
+2017-07-21 15:55:44.2256|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-8.jpg   
+2017-07-21 15:55:44.2316|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-8.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-8.jpg' 
+2017-07-21 15:55:44.2521|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:55:44.2521|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 30.7852ms 200 image/jpeg 
+2017-07-21 15:55:49.3721|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-9.jpg   
+2017-07-21 15:55:49.3721|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-9.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-9.jpg' 
+2017-07-21 15:55:49.4021|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:55:49.4021|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 33.7183ms 200 image/jpeg 
+2017-07-21 15:55:54.5286|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-10.jpg   
+2017-07-21 15:55:54.5416|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-10.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-10.jpg' 
+2017-07-21 15:55:54.5656|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:55:54.5656|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 40.9305ms 200 image/jpeg 
+2017-07-21 15:55:59.6866|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-11.jpg   
+2017-07-21 15:55:59.6866|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-11.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-11.jpg' 
+2017-07-21 15:55:59.7066|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:55:59.7066|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 23.7259ms 200 image/jpeg 
+2017-07-21 15:56:04.8268|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-12.jpg   
+2017-07-21 15:56:04.8268|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-12.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-12.jpg' 
+2017-07-21 15:56:04.8568|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:56:04.8568|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 35.7901ms 200 image/jpeg 
+2017-07-21 15:56:09.9775|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-13.jpg   
+2017-07-21 15:56:09.9835|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-13.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-13.jpg' 
+2017-07-21 15:56:10.0075|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" completed keep alive response. 
+2017-07-21 15:56:10.0115|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 33.84ms 200 image/jpeg 
+2017-07-21 15:56:15.1259|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-14.jpg   
+2017-07-21 15:56:15.1259|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/Content/images/slide-14.jpg'. Physical path: 'D:\GitHub\Ace\src\DotNetCore\Chloe.Home\wwwroot\Content\images\slide-14.jpg' 
+2017-07-21 15:56:15.1514|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" completed keep alive response. 
+2017-07-21 15:56:15.1514|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 30.1136ms 200 image/jpeg 
+2017-07-21 15:58:11.0478|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" disconnecting. 
+2017-07-21 15:58:11.0478|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" sending FIN. 
+2017-07-21 15:58:11.0628|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" sent FIN with status "0". 
+2017-07-21 15:58:11.0628|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U4" stopped. 
+2017-07-21 15:58:16.0696|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" disconnecting. 
+2017-07-21 15:58:16.0766|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" sending FIN. 
+2017-07-21 15:58:16.0766|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" sent FIN with status "0". 
+2017-07-21 15:58:16.0896|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1N69I3U5" stopped. 
+2017-07-21 16:00:22.3682|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 16:00:22.4599|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 16:00:22.6368|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" started. 
+2017-07-21 16:00:22.6368|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" started. 
+2017-07-21 16:00:22.6758|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 16:00:22.7754|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 16:00:22.7754|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 16:00:22.9487|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" completed keep alive response. 
+2017-07-21 16:00:22.9487|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 16:00:22.9487|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 227.2609ms 200  
+2017-07-21 16:00:22.9956|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 16:00:22.9956|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 16:00:23.0222|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 16:00:23.0362|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 16:00:23.0522|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 16:00:23.0612|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 16:00:23.0752|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 16:00:23.0752|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 16:00:23.1212|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 16:00:23.2167|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 16:00:23.3163|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 16:00:23.3753|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 16:00:23.3843|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 16:00:23.4863|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 16:00:23.5078|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 16:00:23.8882|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 374.6587ms. 
+2017-07-21 16:00:23.9027|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 16:00:24.8242|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 918.7593ms. 
+2017-07-21 16:00:24.8382|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 16:00:24.8382|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 16:00:25.0083|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 16:00:25.0233|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 11.6921ms. 
+2017-07-21 16:00:25.0263|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 16:00:25.1028|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 73.6615ms. 
+2017-07-21 16:00:25.2839|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 1963.9842ms 
+2017-07-21 16:00:25.3144|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 16:00:25.3809|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" completed keep alive response. 
+2017-07-21 16:00:25.3809|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2656.1574ms 200 text/html; charset=utf-8 
+2017-07-21 16:00:42.0055|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/vegas.min.js.map   
+2017-07-21 16:00:42.0135|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Content/js/vegas.min.js.map does not match an existing file 
+2017-07-21 16:00:42.0135|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 16:00:42.0135|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 16:00:42.0330|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Content' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 16:00:42.0330|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 16:00:42.0330|3|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-07-21 16:00:42.0425|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-07-21 16:00:42.0425|11|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Response is not cacheable because it does not contain the 'public' cache directive. 
+2017-07-21 16:00:42.0425|27|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response could not be cached for this request. 
+2017-07-21 16:00:42.0585|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" completed keep alive response. 
+2017-07-21 16:00:42.0585|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 55.7518ms 404  
+2017-07-21 16:01:16.3460|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 16:01:16.3535|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 16:01:16.3535|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 16:01:16.3725|9|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|The age of the entry is 00:00:51.0746003 and has exceeded the maximum age of 00:00:00 specified by the 'max-age' cache directive. 
+2017-07-21 16:01:16.3725|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 16:01:16.3725|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 16:01:16.3725|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 16:01:16.3895|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 16:01:16.3895|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 16:01:16.4005|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-07-21 16:01:16.4005|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 16:01:16.4005|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 16:01:16.4305|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 43.5227ms 
+2017-07-21 16:01:16.4365|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 16:01:16.4365|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" completed keep alive response. 
+2017-07-21 16:01:16.4490|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 102.3891ms 200 text/html; charset=utf-8 
+2017-07-21 16:01:16.6115|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/js/vegas.min.js.map   
+2017-07-21 16:01:16.6255|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Content/js/vegas.min.js.map does not match an existing file 
+2017-07-21 16:01:16.6255|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 16:01:16.6255|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 16:01:16.6375|1|Microsoft.AspNetCore.Routing.RouteConstraintMatcher|DEBUG|Route value 'Content' with key 'area' did not match the constraint 'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint'. 
+2017-07-21 16:01:16.6375|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 16:01:16.6375|3|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-07-21 16:01:16.6375|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-07-21 16:01:16.6500|11|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|DEBUG|Response is not cacheable because it does not contain the 'public' cache directive. 
+2017-07-21 16:01:16.6500|27|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response could not be cached for this request. 
+2017-07-21 16:01:16.6500|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" completed keep alive response. 
+2017-07-21 16:01:16.6500|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 50.7453ms 404  
+2017-07-21 16:03:16.6359|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" disconnecting. 
+2017-07-21 16:03:16.6359|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" sending FIN. 
+2017-07-21 16:03:16.6549|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" sent FIN with status "0". 
+2017-07-21 16:03:16.6549|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMK" stopped. 
+2017-07-21 16:03:17.6319|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" disconnecting. 
+2017-07-21 16:03:17.6389|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" sending FIN. 
+2017-07-21 16:03:17.6389|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" sent FIN with status "0". 
+2017-07-21 16:03:17.6529|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G1Q4SVIMJ" stopped. 
+2017-07-21 16:11:01.2727|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-07-21 16:11:01.3668|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-07-21 16:11:01.5468|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-07-21 16:11:01.7369|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" started. 
+2017-07-21 16:11:01.7369|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" started. 
+2017-07-21 16:11:01.8759|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/   
+2017-07-21 16:11:01.8759|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:2878/  0 
+2017-07-21 16:11:02.0530|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" completed keep alive response. 
+2017-07-21 16:11:02.0530|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-07-21 16:11:02.0650|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 231.8452ms 200  
+2017-07-21 16:11:02.0960|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\Richard\AppData\Local\ASP.NET\DataProtection-Keys\key-e3aae49c-869d-4c96-920b-9a774140b0dc.xml'. 
+2017-07-21 16:11:02.1046|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e3aae49c-869d-4c96-920b-9a774140b0dc}. 
+2017-07-21 16:11:02.1207|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {e3aae49c-869d-4c96-920b-9a774140b0dc} with expiration date 2017-10-17 03:59:36Z as default key. 
+2017-07-21 16:11:02.1207|51|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-07-21 16:11:02.1477|4|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-07-21 16:11:02.1577|3|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-07-21 16:11:02.1717|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {e3aae49c-869d-4c96-920b-9a774140b0dc} as the default key. 
+2017-07-21 16:11:02.1717|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {e3aae49c-869d-4c96-920b-9a774140b0dc} with purposes ('D:\GitHub\Ace\src\DotNetCore\Chloe.Home', 'SessionMiddleware'). 
+2017-07-21 16:11:02.2157|24|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|No cached response available for this request. 
+2017-07-21 16:11:02.3234|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-07-21 16:11:02.4404|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) 
+2017-07-21 16:11:02.5034|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home) with arguments ((null)) - ModelState is Valid 
+2017-07-21 16:11:02.5124|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Chloe.Home.Controllers.HomeController.Index (Chloe.Home), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-07-21 16:11:02.6331|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-07-21 16:11:02.6546|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 16:11:03.0737|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 412.2886ms. 
+2017-07-21 16:11:03.0877|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-07-21 16:11:04.2681|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1177.3461ms. 
+2017-07-21 16:11:04.2811|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-07-21 16:11:04.2811|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-07-21 16:11:04.4693|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 16:11:04.4843|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 10.0813ms. 
+2017-07-21 16:11:04.4843|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' started. 
+2017-07-21 16:11:04.5609|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_LayoutPage.cshtml' completed in 71.8686ms. 
+2017-07-21 16:11:04.7244|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Chloe.Home.Controllers.HomeController.Index (Chloe.Home) in 2280.7574ms 
+2017-07-21 16:11:04.7519|26|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|INFO|The response has been cached. 
+2017-07-21 16:11:04.8254|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" completed keep alive response. 
+2017-07-21 16:11:04.8254|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3001.3244ms 200 text/html; charset=utf-8 
+2017-07-21 16:12:51.7224|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" received FIN. 
+2017-07-21 16:12:51.7224|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" received FIN. 
+2017-07-21 16:12:51.7788|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" disconnecting. 
+2017-07-21 16:12:51.7788|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" disconnecting. 
+2017-07-21 16:12:51.8120|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" sending FIN. 
+2017-07-21 16:12:51.8120|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" sending FIN. 
+2017-07-21 16:12:51.8420|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" sent FIN with status "0". 
+2017-07-21 16:12:51.8420|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" sent FIN with status "0". 
+2017-07-21 16:12:51.8710|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CO" stopped. 
+2017-07-21 16:12:51.8710|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CP" stopped. 

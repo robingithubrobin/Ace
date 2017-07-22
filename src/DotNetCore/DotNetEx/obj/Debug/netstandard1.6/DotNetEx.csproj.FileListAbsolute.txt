@@ -1,0 +1,7 @@
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\bin\Debug\netstandard1.6\DotNetEx.deps.json
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\bin\Debug\netstandard1.6\DotNetEx.dll
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\bin\Debug\netstandard1.6\DotNetEx.pdb
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\obj\Debug\netstandard1.6\DotNetEx.AssemblyInfo.cs
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\obj\Debug\netstandard1.6\DotNetEx.dll
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\obj\Debug\netstandard1.6\DotNetEx.pdb
+D:\GitHub\Ace\src\DotNetCore\DotNetEx\obj\Debug\netstandard1.6\DotNetEx.csprojResolveAssemblyReference.cache

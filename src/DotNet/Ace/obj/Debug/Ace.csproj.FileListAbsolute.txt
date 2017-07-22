@@ -1,0 +1,8 @@
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\Ace.dll
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\Ace.pdb
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\DotNet.Utilities.dll
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\DotNet.Utilities.xml
+D:\GitHub\Ace\src\DotNet\Ace\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\Ace\src\DotNet\Ace\obj\Debug\Ace.dll
+D:\GitHub\Ace\src\DotNet\Ace\obj\Debug\Ace.pdb

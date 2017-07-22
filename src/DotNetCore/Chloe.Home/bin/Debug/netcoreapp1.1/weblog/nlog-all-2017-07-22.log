@@ -1,0 +1,15 @@
+2017-07-22 03:17:18.2970|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" started. 
+2017-07-22 03:17:18.3160|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-1.jpg   
+2017-07-22 03:17:18.3350|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /Content/images/slide-1.jpg was not modified 
+2017-07-22 03:17:18.3460|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /Content/images/slide-1.jpg 
+2017-07-22 03:17:18.3460|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" completed keep alive response. 
+2017-07-22 03:17:18.3570|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 44.013ms 304 image/jpeg 
+2017-07-22 03:17:23.4577|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:2878/Content/images/slide-2.jpg   
+2017-07-22 03:17:23.4637|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /Content/images/slide-2.jpg was not modified 
+2017-07-22 03:17:23.4637|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /Content/images/slide-2.jpg 
+2017-07-22 03:17:23.4637|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" completed keep alive response. 
+2017-07-22 03:17:23.4637|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 16.8359ms 304 image/jpeg 
+2017-07-22 03:19:23.9064|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" disconnecting. 
+2017-07-22 03:19:23.9064|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" sending FIN. 
+2017-07-22 03:19:23.9174|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" sent FIN with status "0". 
+2017-07-22 03:19:23.9174|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL6G203BN1CQ" stopped. 

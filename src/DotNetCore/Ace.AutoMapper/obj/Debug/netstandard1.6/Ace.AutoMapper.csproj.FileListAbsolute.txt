@@ -1,0 +1,11 @@
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\Ace.AutoMapper.deps.json
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\Ace.AutoMapper.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\Ace.AutoMapper.pdb
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\Ace.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\DotNetEx.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\Ace.pdb
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\bin\Debug\netstandard1.6\DotNetEx.pdb
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\obj\Debug\netstandard1.6\Ace.AutoMapper.csprojResolveAssemblyReference.cache
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\obj\Debug\netstandard1.6\Ace.AutoMapper.AssemblyInfo.cs
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\obj\Debug\netstandard1.6\Ace.AutoMapper.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.AutoMapper\obj\Debug\netstandard1.6\Ace.AutoMapper.pdb

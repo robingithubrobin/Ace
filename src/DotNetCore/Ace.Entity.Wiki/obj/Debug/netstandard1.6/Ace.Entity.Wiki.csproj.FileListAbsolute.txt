@@ -1,0 +1,7 @@
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\bin\Debug\netstandard1.6\Ace.Entity.Wiki.deps.json
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\bin\Debug\netstandard1.6\Ace.Entity.Wiki.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\bin\Debug\netstandard1.6\Ace.Entity.Wiki.pdb
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\obj\Debug\netstandard1.6\Ace.Entity.Wiki.AssemblyInfo.cs
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\obj\Debug\netstandard1.6\Ace.Entity.Wiki.dll
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\obj\Debug\netstandard1.6\Ace.Entity.Wiki.pdb
+D:\GitHub\Ace\src\DotNetCore\Ace.Entity.Wiki\obj\Debug\netstandard1.6\Ace.Entity.Wiki.csprojResolveAssemblyReference.cache

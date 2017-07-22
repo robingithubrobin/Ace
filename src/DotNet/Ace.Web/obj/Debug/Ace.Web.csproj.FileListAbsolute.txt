@@ -1,0 +1,5 @@
+D:\GitHub\Ace\src\DotNet\Ace.Web\bin\Debug\Ace.Web.dll
+D:\GitHub\Ace\src\DotNet\Ace.Web\bin\Debug\Ace.Web.pdb
+D:\GitHub\Ace\src\DotNet\Ace.Web\obj\Debug\Ace.Web.csprojResolveAssemblyReference.cache
+D:\GitHub\Ace\src\DotNet\Ace.Web\obj\Debug\Ace.Web.dll
+D:\GitHub\Ace\src\DotNet\Ace.Web\obj\Debug\Ace.Web.pdb
